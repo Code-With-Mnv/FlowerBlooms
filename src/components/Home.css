@@ -1,0 +1,67 @@
+.hero-custom {
+  background-image: linear-gradient(
+      90deg,
+      rgba(61, 2, 96, 0.2),
+      rgba(106, 13, 173, 0.2),
+      rgba(255, 105, 180, 0.2)
+    ),
+    url("https://cdn.pixabay.com/photo/2014/09/27/17/35/dandelion-463928_640.jpg"); /* Use your plant image here */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 0;
+  min-height: 92.2vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  color: white;
+}
+
+.lessgoo {
+  max-width: 1000px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: #ffe9f3;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+.hero-custom h1 {
+  color: #ffcce6;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.hero-custom p {
+  color: #ffe9f3;
+  font-size: 2rem;
+}
+
+/* Primary button */
+.btn-custom-primary {
+  color: #ffffff;
+  border: 2px solid #d63384;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.btn-custom-primary:hover {
+  background-color: #d63384;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(214, 51, 132, 0.6);
+}
+
+/* Secondary button */
+.btn-custom-secondary {
+  color: #ffffff;
+  border: 2px solid #ffcce6;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.btn-custom-secondary:hover {
+  background-color: #ffcce6;
+  color: #000;
+  box-shadow: 0 0 10px rgba(255, 204, 230, 0.6);
+}

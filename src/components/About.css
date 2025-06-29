@@ -1,0 +1,41 @@
+.about-section {
+  background-image: linear-gradient(
+      90deg,
+      rgba(61, 2, 96, 0.2),
+      rgba(106, 13, 173, 0.2),
+      rgba(255, 105, 180, 0.2)
+    ),
+    url("https://cdn.pixabay.com/photo/2022/12/03/13/01/butterfly-7632646_1280.jpg"); /* Replace with your preferred plant image */
+  background-size: cover;
+  background-position: center;
+  min-height: 91.7vh;
+  padding: 4rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-content {
+  max-width: 1000px;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: #ffe9f3;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.about-content h1 {
+  color: #ffcce6;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.about-content p {
+  font-size: 2rem;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}

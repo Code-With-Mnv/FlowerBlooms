@@ -1,0 +1,22 @@
+.brc-carousel img {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.brc-carousel img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(255, 105, 180, 0.3); /* pink glow */
+}
+.gallery-section {
+  background: linear-gradient(90deg, #3d0260, #6a0dad, #ff69b4);
+  padding: 4rem 2rem;
+  height: 92.2vh;
+}
+
+img {
+  height: 800px;
+  width: auto;
+}

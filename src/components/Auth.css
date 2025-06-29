@@ -1,0 +1,85 @@
+.login-section {
+  background-image: linear-gradient(
+      90deg,
+      rgba(61, 2, 96, 0.3),
+      rgba(106, 13, 173, 0.3),
+      rgba(255, 105, 180, 0.3)
+    ),
+    url("https://cdn.pixabay.com/photo/2024/12/04/15/37/leaves-9244714_1280.jpg"); /* Plant image */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 4rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-content {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 3rem;
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 0 20px rgba(255, 105, 180, 0.3);
+  color: #ffe9f3;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.login-content h1 {
+  color: #ffcce6;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.login-form input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid rgba(255, 204, 230, 0.2);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.07);
+  color: white;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.login-form input:focus {
+  border-color: #ffcce6;
+}
+
+.login-form input::placeholder {
+  color: #ffdcec;
+  opacity: 1;
+}
+
+.login-form button {
+  background-color: transparent;
+  border: 2px solid #d63384;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.login-form button:hover {
+  background-color: #d63384;
+  box-shadow: 0 0 12px rgba(214, 51, 132, 0.4);
+}
+
+.signup-link {
+  margin-top: 1rem;
+  color: #ffe9f3;
+}
+
+.signup-link a {
+  color: #ffcce6;
+  text-decoration: underline;
+  font-weight: bold;
+}

@@ -1,0 +1,82 @@
+.contact-section {
+  background-image: linear-gradient(
+      90deg,
+      rgba(61, 2, 96, 0.2),
+      rgba(106, 13, 173, 0.2),
+      rgba(255, 105, 180, 0.2)
+    ),
+    url("https://cdn.pixabay.com/photo/2018/05/06/08/00/ferns-3378058_1280.jpg"); /* background floral image */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 4rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-content {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 3rem;
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 0 20px rgba(255, 105, 180, 0.3);
+  color: #ffe9f3;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.contact-content h1 {
+  color: #ffcce6;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.contact-content p {
+  margin-bottom: 2rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid rgba(255, 204, 230, 0.2);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.07);
+  color: white;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #ffcce6;
+}
+
+.contact-form button {
+  background-color: transparent;
+  border: 2px solid #d63384;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #d63384;
+  box-shadow: 0 0 12px rgba(214, 51, 132, 0.4);
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #ffdcec; /* Soft light pink for visibility */
+  opacity: 1; /* Ensure full opacity */
+}

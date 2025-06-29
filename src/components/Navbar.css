@@ -1,0 +1,61 @@
+.navbar-custom {
+  background: linear-gradient(90deg, #3d0260, #6a0dad, #ff69b4);
+  background-attachment: fixed;
+  padding: 0.75rem 1.5rem;
+  backdrop-filter: blur(6px);
+  border-bottom: 5px solid rgba(0, 0, 0, 1); /* subtle glassy border */
+  box-shadow: 0 0 20px rgba(255, 105, 180, 0.15);
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.navbar-custom .nav-link {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: #ffffff;
+  margin: 0 0.4rem;
+  border-radius: 8px;
+  transition: background 0.3s ease, color 0.3s ease;
+  padding: 0.5rem 0.75rem;
+}
+
+.navbar-custom .nav-link:hover,
+.navbar-custom .nav-link.active {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #ffdcec;
+}
+
+.navbar-brand {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+.navbar-brand .flower {
+  color: #ffcce6; /* Light pink */
+}
+
+.navbar-brand .blooms {
+  color: #d63384; /* Deep pink */
+}
+
+/* Override Bootstrap button for consistent theme */
+.btn-custom-search {
+  color: #ffffff;
+  border: 1px solid #d63384;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.btn-custom-search:hover {
+  background-color: #d63384;
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(214, 51, 132, 0.6);
+}
+
+.custom-search-box {
+  border-radius: 10px;
+}
+
+.custom-search-box:hover {
+  border-radius: 20px;
+}
