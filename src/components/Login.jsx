@@ -16,19 +16,17 @@ const Login = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const { email, password } = formData;
+    const { password, email } = formData;
+    const storedPass = localStorage.getItem("password");
 
-    // Get stored credentials
-    const storedEmail = localStorage.getItem("email");
-    const storedPassword = localStorage.getItem("password");
-
-    if (email !== storedEmail || password !== storedPassword) {
-      alert("Invalid email or password!");
+    if (password !== storedPass) {
+      alert("Password is incorrect!");
       return;
     }
 
-    // ✅ Set login session
-    localStorage.setItem("name", email); // You can use a username instead
+    // ✅ Save name/email as login proof
+    localStorage.setItem("name", email);
+
     navigate("/gallery");
   };
 
